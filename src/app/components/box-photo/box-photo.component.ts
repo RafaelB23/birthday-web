@@ -15,7 +15,7 @@ export class BoxPhotoComponent {
     {id:3, src:'imgs/MoonBirthday/7.sonrisaLentes.jpg', alt:'La sonrisa de mi día', content:'Sigue sonriendo que tu sonrisa sigue siendo la luz de mi vida.'},
     {id:4, src:'imgs/MoonBirthday/8.lavaGirl.jpg', alt:'Lava-girl', content:'Muchos ciclos de la vida, pero solo uno de amor.'},
     {id:5, src:'imgs/MoonBirthday/91.ellaBonita.jpg', alt:'La más sexy de todo el lugar', content:'Cada que sonreías, el mundo se detenia.'},
-    {id:6, src:'imgs/MoonBirthday/ninaBerrinche.jpeg', alt:'Haciendo berrinche', content:'Nunca olvides que despues de la tormenta, siempre sale el sol.'},
+    {id:6, src:'imgs/MoonBirthday/ninaBerrinche.jpg', alt:'Haciendo berrinche', content:'Nunca olvides que despues de la tormenta, siempre sale el sol.'},
     {id:7, src:'imgs/MoonBirthday/v2.ninaConcentrada.gif', alt:'Concentración maxima', content:'No dejes de ponerte objetivos y no te rindas hasta que tengas lo que quieres.'},
     {id:8, src:'imgs/MoonBirthday/v6.camaritaFeliz.gif', alt:'Muchos hermosos recuerdos', content:'Sigue tomando fotos, que cada una de ellas es un recuerdo que no se olvida.'},
     {id:9, src:'imgs/MoonBirthday/v4.bizcosLengüita.gif', alt:'Mi favorita ✨', content:'Sigue siendo feliz, que tu felicidad es la mia.'}

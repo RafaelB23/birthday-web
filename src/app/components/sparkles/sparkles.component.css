@@ -1,0 +1,75 @@
+/* Contenedor */
+.spark-container {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  /* Animación personalizada por tipo */
+  @keyframes sparkle {
+    0% { 
+      transform: translate(0, 0) scale(0); 
+      opacity: 0; 
+    }
+    20% { 
+      opacity: 1; 
+    }
+    100% { 
+      transform: translate(var(--curve-x), var(--curve-y)) scale(1.5);
+      opacity: 0; 
+    }
+  }
+  
+  /* Base de chispas */
+  .spark {
+    position: absolute;
+    border-radius: 50%;
+    animation: sparkle 2s cubic-bezier(0.2, 0.8, 0.4, 1) infinite;
+    filter: blur(1px);
+  }
+  
+  /* Tipos de chispas */
+  .spark-candle {
+    background: linear-gradient(to top, 
+      var(--spark-color),
+      rgba(255, 255, 255, 0.8), 
+      transparent);
+    width: 3px !important;
+    height: 12px !important;
+    animation-duration: 1.5s;
+  }
+  
+  .spark-flare {
+    background: radial-gradient(circle, 
+      var(--spark-color), 
+      rgba(255, 255, 255, 0.5), 
+      transparent);
+    box-shadow: 0 0 10px var(--spark-color);
+    animation-duration: 2.5s;
+  }
+  
+  .spark-star {
+    background: transparent;
+    background-image: 
+      radial-gradient(circle, 
+        var(--spark-color) 20%, 
+        transparent 30%),
+      repeating-linear-gradient(
+        45deg,
+        transparent 0px,
+        transparent 2px,
+        var(--spark-color) 3px,
+        var(--spark-color) 4px
+      );
+    animation-timing-function: ease-in-out;
+  }
+  
+  .spark-glow {
+    background: radial-gradient(circle, 
+      var(--spark-color), 
+      transparent 70%);
+    animation-duration: 3s;
+    filter: blur(2px);
+  }

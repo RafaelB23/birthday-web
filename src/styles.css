@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Amsterdam Three';
+    src: url('../public/fonts/amsterdam-three-slant.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Alice';
+    src: url('../public/fonts/Alice-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.amsterdam-text{
+    font-family: "Amsterdam Three";
+}
+
+.alice-text{
+    font-family: "Alice", serif;
+}
+
+body {
+    margin: auto;
+    max-width: 900px;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}

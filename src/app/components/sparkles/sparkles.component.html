@@ -1,0 +1,20 @@
+<div class="spark-container">
+    @for(spark of sparks; track $index){
+        <div 
+         class="spark"
+         [class.spark-candle]="spark.type === 'candle'"
+         [class.spark-flare]="spark.type === 'flare'"
+         [class.spark-star]="spark.type === 'star'"
+         [class.spark-glow]="spark.type === 'glow'"
+         [style.left.%]="spark.left"
+         [style.top.%]="spark.top"
+         [style.width.px]="spark.size"
+         [style.height.px]="spark.size"
+         [style.animation-delay.ms]="spark.delay"
+         [style.--spark-color]="'rgba(' + spark.color + ', 0.8)'"
+         [style.--curve-x]="spark.curveX + 'px'"
+         [style.--curve-y]="spark.curveY + 'px'">
+    </div>
+    }
+    
+  </div>

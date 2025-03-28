@@ -3,14 +3,16 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci --cache .npm --prefer-offline
+        - npm install -g @angular/cli
+        - npm ci
     build:
       commands:
-        - npm run build
+        - ng build --configuration=production
+        - ls -R dist/ 
   artifacts:
-    baseDirectory: dist/birthday-web
+    baseDirectory: dist/birthday-web 
     files:
       - '**/*'
   cache:
     paths:
-      - .npm/**/*
+      - node_modules/**/*

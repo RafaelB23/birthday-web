@@ -16,9 +16,9 @@ export class BoxPhotoComponent {
     {id:4, src:'imgs/MoonBirthday/8.lavaGirl.jpg', type:'img', alt:'Lava-girl', content:'Muchos ciclos de la vida, pero solo uno de amor.'},
     {id:5, src:'imgs/MoonBirthday/91.ellaBonita.jpg', type:'img', alt:'La más sexy de todo el lugar', content:'Cada que sonreías, el mundo se detenia.'},
     {id:6, src:'imgs/MoonBirthday/ninaBerrinche.jpeg', type:'img', alt:'Haciendo berrinche', content:'Nunca olvides que despues de la tormenta, siempre sale el sol.'},
-    {id:7, src:'imgs/MoonBirthday/v2.ninaConcentrada.mp4', type:'video', alt:'Concentración maxima', content:'No dejes de ponerte objetivos y no te rindas hasta que tengas lo que quieres.'},
-    {id:8, src:'imgs/MoonBirthday/v6.camaritaFeliz.mp4', type:'video', alt:'Muchos hermosos recuerdos', content:'Sigue tomando fotos, que cada una de ellas es un recuerdo que no se olvida.'},
-    {id:9, src:'imgs/MoonBirthday/v4.bizcosLengüita.mp4', type:'video', alt:'Mi favorita ✨', content:'Sigue siendo feliz, que tu felicidad es la mia.'}
+    {id:7, src:'imgs/MoonBirthday/v2.ninaConcentrada.gif', type:'img', alt:'Concentración maxima', content:'No dejes de ponerte objetivos y no te rindas hasta que tengas lo que quieres.'},
+    {id:8, src:'imgs/MoonBirthday/v6.camaritaFeliz.gif', type:'img', alt:'Muchos hermosos recuerdos', content:'Sigue tomando fotos, que cada una de ellas es un recuerdo que no se olvida.'},
+    {id:9, src:'imgs/MoonBirthday/v4.bizcosLengüita.gif', type:'img', alt:'Mi favorita ✨', content:'Sigue siendo feliz, que tu felicidad es la mia.'}
   ]
 
   message = 

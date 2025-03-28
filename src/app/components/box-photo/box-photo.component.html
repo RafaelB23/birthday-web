@@ -6,14 +6,7 @@
                 [class.sm:-rotate-15]="!$odd" [class.sm:rotate-15]="$odd" [class.sm:ms-18]="!$odd"
                 [class.sm:me-18]="$odd">
                 <div class="w-full h-[360px] sm:h-[400px] overflow-hidden">
-                    @if(item.type === "video") { <!-- Si tienes una propiedad que define el tipo -->
-                        <video class="w-full h-full object-cover object-top" autoplay muted loop playsinline>
-                            <source src="{{item.src}}" type="video/mp4">
-                        </video>
-                    }
-                    @else {
                     <img class="w-full h-full object-cover object-top" src="{{item.src}}" alt="{{item.alt}}">
-                    }
                 </div>
                 <p class="text-center img-alt mt-4 text-xl sm:text-2xl">{{item.alt}}</p>
             </div>

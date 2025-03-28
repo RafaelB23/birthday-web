@@ -10,7 +10,7 @@ frontend:
         - ng build --configuration=production
         - ls -R dist/ 
   artifacts:
-    baseDirectory: dist/birthday-web 
+    baseDirectory: dist/birthday-web/browser
     files:
       - '**/*'
   cache:
